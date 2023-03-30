@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site Nikhil</title>
+     <!-- flow of blog:
+      1.Header 
+          Logo Website link Header image 
+      2.Main Blog
+         Heading Blog Image Content Paragraph 1 Paragraph List Ending Paragraph -->
+</head>
+<body>
+    <!-- 1.Header -->
+    <nav>
+    <h2>TECHNOLOGICAL ADVANCEMENTS OF AI (OPEN AI)</h2>
+    <a href="about me/index.html">About Me</a>
+    <a href="#comments-section">Go to Comments</a>
+    </nav>
+    <!-- Logo Website  -->
+    <!-- div is also working as kinda line break -->
+    <header>
+    <a href="https://openai.com/blog/chatgpt" target="_blank"><img src="static/OpenAI logo.png"></a>
+        <!-- link --><br>
+    <a href="https://openai.com/blog/chatgpt" target="_blank">Open AI Chat-GPT</a> <br> 
+    <!-- Header image  -->
+    <!-- img is a inline tag mean just next new line starts and 
+      to take complete block, you can write img inside <div> tag it gives access
+        of complete block to div  -->
+    <img src="static/OpenAI image.png">
+    </header>
+    <!-- 2.Main Blog -->
+    <main>
+         <!-- Heading Blog  -->
+         <h2>GPT-4 can solve difficult problems with greater accuracy,<br> thanks to its broader general knowledge and problem solving abilities</h2>
+         <!-- Image Content -->
+         <!-- src in this is relative  and width is 100% wrt to screen size-->
+         <img src="static/chatGPT.png" alt="IT HAS A IMAGE" height="500" width="50%">
+          <!-- Paragraph 1  -->
+          <p>ChatGPT &nbsp; has continued to dazzle the internet with AI-generated content, morphing from a novel chatbot into a piece of technology that is driving the next era of technological innovation. Not everyone’s on board yet, though, and you’re probably wondering; what’s all the fuss about?</p>
+          <p>It’s made by OpenAI, well-known for having developed the text-to-image generator DALL-E, and it’s currently available for anyone to try out for free. Here’s what ChatGPT is, how to use it, and how it could change the future of the internet.</p>
+          <!-- Paragraph List  -->
+          <!-- Making unordered list use ul for ordered list use  ol -->
+         <ol type="1">
+                <li>
+                    <h3>About Open AI</h3>
+                  <p>Lab in which 246 engineers are currently working.</p>
+                  <p>Microsoft Invested 11 billion dollors in it.</p>
+                  <ul type="circle" start="2">
+                    <li>Study More on OpenAI</li>
+                    <li>GPT-4</li>
+                    <li>ChatGPT</li>
+                  </ul>                      
+                </li>
+                <li>
+                    <h3>About Microsoft</h3>
+                    <p>Microsoft also intergated GPT into its Ecosystem</p>
+                    <p>Others company like Mongan Stanely and Khan Academy also included
+                        it as AI bot into its products.
+                    </p>
+                </li>
+                <li>
+                    <h3>How to Use ChatGPT</h3>
+                    <p>
+                        How To Use ChatGPT?<br>
+1. Visit the OpenAI website and create an account.<br>
+2. Browse the API keys page to generate a new API key<br>
+3. Now, copy and save the API key safely to access the Chat GPT model when needed.<br>
+4. If you use Python language for Coding, then the OpenAI Python package must be installed to access the ChatGPT model from the Python code, this package can now be installed by using the command line – ‘pip install openai’<br>
+5. Once the package is installed, try accessing the ChatGPT model to produce an answer to any human or natural language text or data.<br>
+                    </p>
+                </li>
+
+         </ol>
+          <!-- Ending Paragraph  -->
+        </main>
+
+        <section id="comments-section">
+            <!-- h2 tag is a block tag mean paragraph begin after new line -->
+            <h2> Comments </h2>
+            <div>
+                <h4> Name </h4>
+                <p> Comment </p>
+            </div>
+            <div>
+                <h4> Name </h4>
+                <p> Comment </p>
+            </div>
+            <div>
+                <h4> Name </h4>
+                <p> Comment </p>
+            </div>
+        </section>
+        <footer>
+        <a href="#">Back to Top</a>
+      
+        </footer>
+</body>
+</html>

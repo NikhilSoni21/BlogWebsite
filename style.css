@@ -1,0 +1,21 @@
+
+.hi{
+    color: red;
+    /* border: 30px solid black; */
+    width: 400px;
+    /* overflow: scroll; */
+    
+}
+
+.pc{
+    border:50cm;
+    color: white;
+    padding: 69px;
+}
+
+@media  all and (max-width: 600px) {
+    .hi{
+        background-color: blue;
+    }
+}
+
